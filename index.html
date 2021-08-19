@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <style>
+* { box-sizing: border-box;}
+
+
+body {
+  padding: 1rem;
+  font-familiy: Verdana, Geneva, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;  
+}
+
+p {
+  margin: .5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.gallery-grid {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: blue;
+  opacity: 0.5;
+  color: #d9d9d9;
+}
+
+
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h2>Gallery Heading</h2>
+    
+    <div class="gallery-grid">
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <figure class="gallery-frame">
+        <img class="gallery-img" src="placeholder-image.png" >
+        <figcaption>Image Title</figcaption>
+      </figure>
+      <p>"Lorem ipsum dolor sit amet"</p>
+      
+      
+    </div>
+  </body>
+</html>
